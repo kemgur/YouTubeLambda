@@ -6,6 +6,17 @@ import java.util.List;
 
 public class Lambda01 {
 
+    /*
+                        Functional Programming vs Structured Programming
+        a)Functional Programming focuses on the use of "functions" where each function performs a specific task.
+        Structured Programming focuses on objects, classes, data types etc.
+        Functional Programming focuses on mostly "what to do" but Structured Programming focuses on mostly "How to do"
+        b)Functional Programming supports "parallel execution", but Structured Programming doe snot support "parallel execution"
+
+                        What is Stream?
+        a) Stream is an API and it is used to process collections of objects
+        b) A stream is not a data structure instead it takes input from the 1)Collections, 2)Arrays or 3)I/O channels.
+    */
     public static void main(String[] args) {
         List<Integer> l = new ArrayList<Integer>();
         l.add(12);
