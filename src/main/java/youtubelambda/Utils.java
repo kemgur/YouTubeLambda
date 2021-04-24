@@ -14,16 +14,7 @@ public class Utils {
         return x%2!=0;
     }
 
-    public static int getSquare(int x){
+    public static Integer getSquare(int x){
         return x*x;
     }
-
-    public static int getCube(int x){
-        return x*x*x;
-    }
-
-    public static double getHalf(double x){
-        return x/2;
-    }
-
 }
