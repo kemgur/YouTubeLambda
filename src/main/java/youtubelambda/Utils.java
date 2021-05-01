@@ -17,4 +17,12 @@ public class Utils {
     public static Integer getSquare(int x){
         return x*x;
     }
+
+    public static Integer getCube(int x){
+        return x*x*x;
+    }
+
+    public static Integer getHalf(int x){
+        return x/2;
+    }
 }
